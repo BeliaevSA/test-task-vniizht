@@ -1,0 +1,23 @@
+.container{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid darkgray;
+  cursor: pointer;
+}
+
+
+.container:hover,
+.container.active{
+  background-color: aliceblue;
+}
+
+.name{
+  flex-basis: 40%;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.description{
+  flex-basis: 60%;
+  padding: 15px;
+}

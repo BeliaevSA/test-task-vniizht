@@ -1,0 +1,21 @@
+.container{
+  min-height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  padding: 5vh 2vw;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.loader{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .container{
+    flex-direction: column;
+  }
+}

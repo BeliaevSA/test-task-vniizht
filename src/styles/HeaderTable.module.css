@@ -1,0 +1,15 @@
+.container{
+  margin-top: 10px;
+  display: flex;
+  background-color:lightcyan;
+  font-weight: 600;
+}
+
+.name{
+  flex-basis: 40%;
+  padding: 15px;
+}
+.description{
+  flex-basis: 60%;
+  padding: 15px;
+}

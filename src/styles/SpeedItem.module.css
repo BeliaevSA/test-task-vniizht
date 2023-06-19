@@ -1,0 +1,30 @@
+.container{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid darkgray;
+}
+
+.container.last{
+  border: none;
+}
+
+.name{
+  flex-basis: 40%;
+  padding: 15px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.input-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 60%;
+  padding: 15px;
+}
+
+.input{
+  text-align: center;
+  padding: 5px ;
+  width: 60px;
+}
